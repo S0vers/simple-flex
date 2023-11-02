@@ -11,14 +11,14 @@ const HomePage: React.FC = () => {
       <div className="flex flex-row flex-wrap justify-stretch max-w-[1100px] mx-auto gap-2">
         {data.map((item, index) => {
           return (
-            <div className="max-w-[167px] mx-auto mt-10" key={index}>
+            <div className="w-full sm:max-w-[167px] mx-auto mt-10" key={index}>
               <div
                 className="mb-[1.5px] text-center uppercase"
                 style={{ background: item.color }}
               >
                 hululu <span className="font-bold">{item.county}</span>
               </div>
-              <div className="border border-black px-1 pt-1 rounded-sm text-center h-full flex flex-col justify-between">
+              <div className="border border-black px-1 pt-1 rounded-sm text-center h-full flex flex-col justify-between items-center align-middle">
                 <Image
                   src={item.picture}
                   alt="Amber"
