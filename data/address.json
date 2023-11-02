@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "county": "Bexar",
+    "picture": "/0.jpg",
+    "color": "#FFEDD2"
+  },
+  {
+    "id": 2,
+    "county": "Harris",
+    "picture": "/1.webp",
+    "color": "#D7DCF9"
+  },
+  {
+    "id": 3,
+    "county": "Dallas",
+    "picture": "/3.jpg",
+    "color": "#FDE3E6"
+  },
+  {
+    "id": 4,
+    "county": "Tarrant",
+    "picture": "/4.jpeg",
+    "color": "#FFEDD2"
+  },
+  {
+    "id": 5,
+    "county": "Travis",
+    "picture": "/5.jpeg",
+    "color": "#D7DCF9"
+  },
+  {
+    "id": 6,
+    "county": "Collin",
+    "picture": "/6.jpeg",
+    "color": "#FDE3E6"
+  }
+]
