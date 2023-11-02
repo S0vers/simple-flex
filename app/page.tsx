@@ -31,6 +31,7 @@ const HomePage: React.FC = () => {
           );
         })}
       </div>
+      <Link href="/simplyer">simplyer</Link>
     </main>
   );
 };
