@@ -13,10 +13,10 @@ const HomePage: React.FC = () => {
           return (
             <div className="max-w-[167px] mx-auto mt-10" key={index}>
               <div
-                className="mb-[1.5px] text-center"
+                className="mb-[1.5px] text-center uppercase"
                 style={{ background: item.color }}
               >
-                County <span className="font-bold">{item.county}</span>
+                hululu <span className="font-bold">{item.county}</span>
               </div>
               <div className="border border-black px-1 pt-1 rounded-sm text-center h-full flex flex-col justify-between">
                 <Image
